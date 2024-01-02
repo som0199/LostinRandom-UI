@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Transcent Ultra';
+    src: url('Transcend-Font-Family/') format('otf');
+  }
+  
+  
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Lost-in-Random-Garota-de-cabelo-rosa-e-um-dado-com-inimigos-os-observando-900x503.jpg);
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+.navbar{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid gray;
+    
+}
+.navbar button{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+}
+#buynav{
+    width: 150px;
+    height: 45px;
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgba(240, 12, 126, 0.842);
+    color: white;
+    font-size: 14px;
+}
+.navbar-left{
+    width: 22%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-left img{
+    width: auto;
+    height: 60px;
+}
+
+.navbar-middle{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-middle li{
+    list-style: none;
+}
+.navbar-middle a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-right{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.navbar-right img{
+    width: auto;
+    height: 14px;
+    text-align: center;
+}
+.container-1{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 40px;
+}
+.container-1-left{
+    width: 35%;
+    height: auto;
+    /* background-color: antiquewhite; */
+
+}
+.container-1-left img{
+    width: auto;
+    height: 25px;
+}
+.container-1-left h1{
+    font-size: 65px;
+    font-family: 'Transcend Ultra';
+    color: white;
+    padding-block: 20px;
+
+ }
+ .container-1-left p{
+    font-size: 25px;     
+    font-family: 'Transcend Thin',sans-serif;
+    color: white;
+      
+}
+.container-1-left ul{
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#buy{
+    width: 180px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: rgba(240, 12, 126, 0.842);
+    color: white;
+    font-size: 14px;
+}
+.container-1-left button{
+    width: 180px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 40px;
+    
+
+}
+.container-1-right{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-1-right img{
+    width: auto;
+    height: 60px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+
+
+@media(max-width:768px){
+    
+    .main-container{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .navbar{
+        width: 100%;
+        height: 12vh;
+        padding: 25px;
+        
+        
+    }
+    .navbar button{
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        
+    }
+    #buynav{
+        width: 130px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .navbar-left{
+        width: 40%;
+        height: auto;
+    }
+    .navbar-left img{
+        width: auto;
+        height: 65px;
+    }
+    
+    .navbar-middle{
+        display: none;
+    }
+    .navbar-right{
+        width: 38%;
+        height: auto;
+    }
+    .navbar-right img{
+        width: auto;
+        height: 14px;
+    }
+    .container-1{
+        width: 100%;
+        height: 88vh;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .container-1-left{
+        width: 100%;
+        height: auto;
+        /* background-color: antiquewhite; */
+    
+    }
+    .container-1-left img{
+        width: auto;
+        height: 25px;
+    }
+    .container-1-left h1{
+        font-size: 55px;
+        font-family: 'Transcend Ultra';
+        color: white;
+        padding-block: 20px;
+    
+     }
+     .container-1-left p{
+        font-size: 25px;     
+        font-family: 'Transcend Thin',sans-serif;
+        color: white;
+          
+    }
+    .container-1-left ul{
+        width: 50%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    #buy{
+        width: 150px;
+        height: 50px;
+        border: 1px solid transparent;
+        border-radius: 30px;
+        background-color: rgba(240, 12, 126, 0.842);
+        color: white;
+        font-size: 14px;
+    }
+    .container-1-left button{
+        width: 180px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+        font-size: 14px;
+        margin-bottom: 40px;
+        
+    
+    }
+    .container-1-right{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .container-1-right img{
+        width: auto;
+        height: 60px;
+        margin-top: 50px;
+        /* margin-bottom: 30px; */
+    }
+    
+}
+
+
